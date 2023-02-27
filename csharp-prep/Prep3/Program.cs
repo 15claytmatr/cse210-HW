@@ -12,7 +12,7 @@ static void Main(string[] args)
 
         while (guess != correctnumber)
         {
-            Console.Write("What is your guess? ");
+            Console.Write("Guess a number between 1 and 101");
             guess = int.Parse(Console.ReadLine());
 
             if (correctnumber > guess)
