@@ -2,8 +2,12 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Prep1 World!");
+      Console.WriteLine("What is your first given name?");
+        string first = Console.ReadLine();
+
+        Console.WriteLine("what is your surname?");
+        string last = Console.ReadLine();
+
+        Console.Write($"your full name is {last}, {first} {last}.");
     }
 }
